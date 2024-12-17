@@ -1,15 +1,42 @@
-body {
-  font-family: 'Courier New', Courier, monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-img {
-  width: 100px;
-  height: 100px;
+body {
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin: 32px 0;
+}
+
+.container {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 200px;
+  gap: 12px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.text {
+  text-align: center;
 }
 
 /* do not edit this footer */
